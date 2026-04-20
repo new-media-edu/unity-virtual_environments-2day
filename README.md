@@ -4,9 +4,9 @@ This workshop is designed for artists who want to utilize 3D software for two pr
 
 Participants will learn to compose complex 3D scenes, manipulate lighting, and organize spatial layouts. While the workshop avoids manual coding, the final session will demonstrate how to implement pre-made scripts and utilize AI-assisted scripting using LLMs to add interactivity, offering a bridge to more advanced technical development.
 
-## Wednesday, April 22: Unity Workshop - Day 1
-10:00 am - 1:00 pm CET
+## Wednesday, April 22: Unity Workshop
 
+### Session 01: 10:00 am – 1:00 pm CET
 - Setup & Verification: Ensure Unity 6 or the current version and ProBuilder are installed.
 - Gallery Mocking (ProBuilder):
     - Use ProBuilder to create to-scale 3D white cube environments.
@@ -18,23 +18,15 @@ Participants will learn to compose complex 3D scenes, manipulate lighting, and o
     - Set up the Audio Listener on the player or camera.
     - Configure Audio Sources with 3D Spatial Blend set to 1.0.
     - Adjust Min/Max Distance curves so sound fades realistically as the user walks away from a virtual object.
+
+### Break: 1:00 pm – 2:00 pm CET
+
+### Session 02: 2:00 pm – 4:00 pm CET
 - The Physical-to-Digital Demo:
     - Demonstrate Polycam for mobile photogrammetry.
     - Explain the Circular Scan for objects versus the Room Scan for spaces.
-
-## Overnight Assignment
-The Physical-to-Digital Bridge
-
-- Software: Download Polycam, free version is sufficient.
-- Task: Identify a physical object or a corner of a room at the Akademie.
-- Capture: Perform a scan to generate a 3D mesh.
-- Export: Upload the scan and export it as an .obj or .glb file to be used in the next session.
-
-## Thursday, April 23: Unity Workshop - Day 2
-10:00 am - 1:00 pm CET
-
 - Importing Reality:
-    - Bring the overnight photogrammetry meshes into Unity.
+    - Bring photogrammetry meshes into Unity.
     - Fix scale issues and apply basic shaders to captured textures.
 - Atmosphere & Lighting:
     - Manipulate Skyboxes and Directional Lights.
