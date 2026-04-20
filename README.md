@@ -18,22 +18,23 @@ Participants will learn to compose complex 3D scenes, manipulate lighting, and o
     - Set up the Audio Listener on the player or camera.
     - Configure Audio Sources with 3D Spatial Blend set to 1.0.
     - Adjust Min/Max Distance curves so sound fades realistically as the user walks away from a virtual object.
+- No-Code Interactivity:
+    - Introduce pre-made Trigger scripts, such as entering a zone to play a video.
+    - Demonstrate AI-assisted generation of simple C# scripts for specific artistic behavior.
+- Physical-to-Digital Demo:
+    - Demonstrate Polycam for mobile photogrammetry.
+    - Provide instructions for scanning an object or space during the lunch break.
 
-### Break: 1:00 pm – 2:00 pm CET
+### Lunch Break: 1:00 pm – 2:00 pm CET
+- *Task: Scan a physical object or space to bring into the afternoon session.*
 
 ### Session 02: 2:00 pm – 4:00 pm CET
-- The Physical-to-Digital Demo:
-    - Demonstrate Polycam for mobile photogrammetry.
-    - Explain the Circular Scan for objects versus the Room Scan for spaces.
 - Importing Reality:
-    - Bring photogrammetry meshes into Unity.
+    - Bring lunch break photogrammetry meshes into Unity.
     - Fix scale issues and apply basic shaders to captured textures.
 - Atmosphere & Lighting:
     - Manipulate Skyboxes and Directional Lights.
     - Use Point Lights to simulate gallery spotlights.
-- No-Code Interactivity:
-    - Introduce pre-made Trigger scripts, for example walking into a zone to play a video.
-    - Demonstrate how AI tools can generate simple C# scripts for specific artistic needs, such as making an object rotate slowly or changing color when clicked.
 - Assisted Studio Time: Final hour dedicated to refining individual mockups or environments with 1-on-1 assistance.
 
 ### Technical Guide for Participants
