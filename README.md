@@ -7,7 +7,20 @@ Participants will learn to compose complex 3D scenes, manipulate lighting, and o
 ## Wednesday, April 22: Unity Workshop
 
 ### Session 01: 10:00 am – 1:00 pm CET
-- Setup & Verification: Ensure Unity 6 or the current version and ProBuilder are installed.
+- **Unity Basics & Interface:**
+    - Understanding the Project view, Hierarchy, Scene view, Game view, and Inspector.
+    ![Unity Views](images/unity-views.png)
+    - **Coordinate System:** Navigating in 3D (X, Y, Z) where **Y is Up**.
+    ![Unity XYZ](images/unity-xyz.png)
+    - **Manipulation:** Using **W, E, and R** for Translate, Rotate, and Scale.
+    ![Basic Controls](images/unity-basic_controls.png)
+- Setup & Verification:
+    - Ensure Unity 6 or the current version is installed.
+    - **On-site ProBuilder Installation:** Install ProBuilder together during the session using the Unity Package Manager.
+    - ![ProBuilder Installation](images/pro-builder-install.png)
+- **First-Person Navigation:**
+    - Install the **Mini First Person Controller** from the Asset Store via Package Manager.
+    - Drag and drop the prefab into the scene and **delete** the pre-existing `Main Camera`.
 - Gallery Mocking (ProBuilder):
     - Use ProBuilder to create to-scale 3D white cube environments.
     - Practice basic extruding, face editing, and vertex manipulation to build walls and pedestals.
@@ -37,8 +50,3 @@ Participants will learn to compose complex 3D scenes, manipulate lighting, and o
     - Use Point Lights to simulate gallery spotlights.
 - Assisted Studio Time: Final hour dedicated to refining individual mockups or environments with 1-on-1 assistance.
 
-### Technical Guide for Participants
-- Unity Version: Unity 6 (LTS).
-- ProBuilder: Found in Window > Package Manager > Unity Registry.
-- Polycam: Available on iOS and Android. The free tier allows a limited number of captures and exports, which is sufficient for this exercise.
-- Asset Prep: Remind participants to bring any JPG or PNG images or MP4 videos they might want to hang in their virtual gallery.
