@@ -1,93 +1,56 @@
-# Session 01: Unity Workshop — Morning
+# Morning Session: Getting Started in Unity
 
-Date: Wednesday, April 22
-Time: 10:00 – 13:00
+**Wednesday, April 22 | 10:00 – 13:00**
 
-## Session Focus
+In the morning, we're covering the core Unity interface and building a foundation for your virtual space. We'll go from "I've never opened this app" to walking around a custom-built 3D gallery with sound and basic interactivity.
 
-This session introduces a no-code Unity workflow for artists. We begin with absolute basics of the Unity interface and navigation, followed by spatial composition, basic modeling in ProBuilder, scene setup, introductory spatial audio, and interactive scripts. The session concludes with a photogrammetry demo.
+## What we're doing
 
-## Schedule & Agenda
+### 1. The Editor Layout & Navigation
+Unity has a lot of buttons, but you only need five main windows to start. We'll walk through the **Hierarchy**, **Project**, **Scene**, **Game**, and **Inspector** views.
+- ![Unity Views](../images/unity-views.png)
+- **Controls:** Right-click and use **WASD** to fly around. Use **W, E, and R** to move, rotate, and scale things.
+- **Coordinates:** Remember that **Y is Up**. 
+- ![Basic Controls](../images/unity-basic_controls.png)
+- ![Unity XYZ](../images/unity-xyz.png)
+- *Further Reading:* [Explore the Unity Editor](https://learn.unity.com/tutorial/explore-the-unity-editor-1?version=2021.3)
 
-### Session 1: 10:00 – 13:00
+### 2. Making your first objects
+Before we get technical, let's just make things move.
+- **Floor & Walls:** Right-click the Hierarchy > **3D Object** > **Plane**.
+- **Physics:** Add a Cube and a Sphere. Select the sphere, click **Add Component** in the inspector, and find the **Rigidbody**. 
+- Hit **Play** and watch it fall.
 
-- **Unity Basics & Interface**
-	- **The Big Five:** Understanding the Project view, Scene Hierarchy, Scene view, Game view, and the Inspector.
-		- ![Unity Views](../images/unity-views.png)
-		- *Further Reading:* [Explore the Unity Editor](https://learn.unity.com/tutorial/explore-the-unity-editor-1?version=2021.3)
-	- **Coordinate System (X, Y, Z):** Unity is a 3D environment.
-		- **Y is Up**, X is horizontal, and Z is depth.
-		- ![Unity XYZ](../images/unity-xyz.png)
-	- **Navigation & Manipulation:**
-		- Moving in the Scene view: Use **WASD** and right-click to fly around.
-		- Transforming objects:
-			- **W:** Translate (Move)
-			- **E:** Rotate
-			- **R:** Scale
-		- ![Basic Controls](../images/unity-basic_controls.png)
+### 3. Setup: ProBuilder
+We'll install **ProBuilder** together. This is a tool that lets you build architecture (walls, stairs, pedestals) directly inside Unity without needing an external 3D app.
+- Open `Window` > `Package Manager`.
+- Switch to the `Unity Registry` and search for **ProBuilder**.
+- ![ProBuilder Installation](../images/pro-builder-install.png)
 
-- **The Basics: Creating Game Objects**
-	- **Create a Floor:** Right-click in the Hierarchy > **3D Object** > **Plane**.
-	- **Create Obstacles:** Create a **Cube** and a **Sphere** using the same menu.
-	- **Physics 101:** Select the Sphere, go to the Inspector, click **Add Component**, and search for **Rigidbody**.
-	- **Test it:** Press the **Play** button at the top of the editor. The sphere should now drop and roll on the plane.
+### 4. Building your space
+Once ProBuilder is in, we'll start mocking up a gallery.
+- Sketch out walls and floors to real-world scale.
+- Drag in images, textures, or 3D models you already have.
 
-- **Setup & Verification**
-	- Ensure Unity 6 or the current version is installed.
-	- **Install ProBuilder together on-site:**
-		- Open your project and go to `Window` > `Package Manager`.
-		- Select `Unity Registry` from the dropdown at the top.
-		- Search for **ProBuilder** and click **Install**.
-		- ![ProBuilder Installation](../images/pro-builder-install.png)
+### 5. Walkthrough: First-Person Controls
+We'll use a simple drag-and-drop controller so you can walk through your space like a gallery visitor.
+- **Install:** Find the [Mini First Person Controller](https://assetstore.unity.com/packages/tools/input-management/mini-first-person-controller-174710) in the Asset Store, then pull it in via the Package Manager.
+- **Setup:** Drag the prefab into the scene and **delete the default Main Camera**.
+- **Tweak:** You can change the player height in the Inspector.
 
-- **First-Person Navigation (The Drag-and-Drop Way)**
-	- **Installation:** 
-		- Go to the Asset Store and "Add to My Assets" the [Mini First Person Controller](https://assetstore.unity.com/packages/tools/input-management/mini-first-person-controller-174710).
-		- In Unity, open `Window` > `Package Manager`, select **My Assets**, and install it.
-	- **Setup:** 
-		- Drag the `First Person Controller` prefab into your Scene.
-		- **Important:** Delete the pre-existing `Main Camera` from your Hierarchy.
-	- **Customization:** Select the controller in the Hierarchy and use the Inspector to adjust the **Height** if needed.
+### 6. Sound & Interaction
+- **Spatial Audio:** Drop in a sound file and set the **Spatial Blend** to 3D. Now it gets louder as you walk toward it.
+- **Interactivity:** We'll look at a few basic scripts to trigger events, like a video starting when you enter a room.
 
-- **Gallery Mocking with ProBuilder**
-	- Create to-scale 3D white cube environments.
-	- Practice extruding, face editing, and vertex manipulation.
-	- Build core structures such as walls and pedestals.
+### 7. Demo: Photogrammetry (Lunch Assignment)
+Before we break, we’ll show you how to scan a physical object using **Polycam**. 
+- Your goal for the break is to find one object (or a corner of a room) to scan and bring into Unity this afternoon.
 
-- **Building the Virtual Environment**
-	- Place assets with drag-and-drop workflows.
-	- Import and position 3D models, textures, and images.
+---
 
-- **Spatial Audio Basics**
-	- Add and position an Audio Listener on player or camera.
-	- Configure Audio Sources with 3D Spatial Blend set to 1.0.
-	- Tune Min/Max Distance so audio fades naturally with distance.
-
-- **No-Code Interactivity**
-	- Introduce pre-made Trigger scripts, such as entering a zone to play a video.
-	- Demonstrate AI-assisted generation of simple C# scripts for specific artistic behavior.
-
-- **Physical-to-Digital Demo (The "Lunch Break" Assignment)**
-	- Mobile photogrammetry demo with Polycam.
-	- Instructions for scanning an object or space during the break.
-
-## Session Checklist
-
-- Unity installed and opening correctly.
-- ProBuilder installed and visible in Unity.
-- Mini First Person Controller installed and working.
-- One simple interactive behavior implemented.
-- Polycam or an alternative scanning app installed on mobile.
-
-## Polycam Scanning Instructions & Alternatives
-
-**Polycam (iOS/Android):**
-- When you open Polycam, you may see a pop-up encouraging you to subscribe. You do **not** need to pay—Polycam allows up to 10 free scans.
-- Scanning involves slowly rotating around your object, keeping your phone steady.
-- When processing is complete, you can send yourself an email link to download the 3D model (choose the GLTF format for Unity compatibility).
-
-**Free Alternatives to Polycam:**
-- [3D Scanner App (iOS)](https://apps.apple.com/us/app/3d-scanner-app/id1419913995)
-- [KIRI Engine (iOS/Android)](https://www.kiriengine.app/)
-- [Scaniverse (iOS)](https://scaniverse.com/)
-- [Trnio (iOS)](https://www.trnio.com/)
+## Morning Checklist
+- [ ] Unity 6 is open and running.
+- [ ] ProBuilder is installed.
+- [ ] You can move, rotate, and scale objects.
+- [ ] You have a basic room or floor started.
+- [ ] You've got Polycam on your phone.

@@ -1,29 +1,33 @@
-# Session 02: Unity Workshop - Afternoon
+# Afternoon Session: Polish & Presentation
 
-Date: Wednesday, April 22
-Time: 2:00 pm – 4:00 pm CET
+**Wednesday, April 22 | 14:00 – 16:00**
 
-## Session Focus
+The afternoon is about bringing in your own content and making the space look "right." We'll focus on importing your scans, setting up professional lighting, and getting your project ready to show.
 
-Session 02 builds on the morning session by importing the photogrammetry captures made during the lunch break, shaping atmosphere through lighting, and providing assisted studio time to refine individual projects.
+## What we're doing
 
-## Schedule & Agenda
+### 1. Importing your Scans
+We'll take the models you captured over lunch and pull them into Unity.
+- Export from Polycam as `.obj` or `.glb`.
+- Drop them into your project and fix any weird scaling or orientation.
+- Apply shaders to make the textures look clean.
 
-- **Importing Reality**
-    - Bring lunch break photogrammetry meshes into Unity.
-    - Resolve scale and orientation issues.
-    - Apply basic shaders and materials to captured textures.
-- **Atmosphere and Lighting**
-    - Adjust Skyboxes and Directional Lights.
-    - Add Point Lights to simulate gallery spotlights.
-    - Refine mood and readability of exhibition spaces.
-- **Assisted Studio Time**
-    - Final hour for project refinement.
-    - Individual support for technical and aesthetic decisions.
+### 2. Lighting & Atmosphere
+Lighting is the difference between a "gray box" and a gallery.
+- **Skyboxes:** Change the overall background and ambient light.
+- **Spotlights:** Use Point Lights and Spotlights to highlight your objects.
+- **Baking vs. Real-time:** A quick look at how Unity calculates light.
 
-## Session Checklist
+### 3. Studio Time
+The final hour is yours. We'll be around to help you with:
+- Troubleshooting specific ideas.
+- Adding final touches to your layout.
+- Exporting or saving your scene for the future.
 
-- Imported at least one scanned object from the lunch break.
-- Corrected scale and texture presentation for the scan.
-- Added and tuned at least one lighting setup.
-- Exported or saved a clean scene state for future iteration.
+---
+
+## Afternoon Checklist
+- [ ] Your scan is imported and visible in the scene.
+- [ ] You've added at least one custom light source.
+- [ ] Your space has a clear mood or atmosphere.
+- [ ] You've saved your scene!

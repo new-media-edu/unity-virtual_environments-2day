@@ -1,25 +1,25 @@
-# Workshop: Virtual Environments & Gallery Mockups
+# Unity for Artists: Virtual Galleries & Environments
 
-This intensive single-day workshop is designed for artists who want to utilize 3D software for two primary purposes: mocking up physical gallery installations for spatial planning and developing native virtual environments. 
+This workshop is a hands-on, one-day intensive for artists who want to use Unity for spatial planning or building digital-only worlds. We’re skipping the heavy coding and focusing on a drag-and-drop workflow that gets you building immediately.
 
-The curriculum bypasses the steep learning curve of traditional game development by focusing entirely on a **no-code, drag-and-drop workflow** within Unity. Participants will learn to compose complex 3D scenes, manipulate lighting, organize spatial layouts, and bridge the physical and digital worlds through mobile photogrammetry.
+By the end of the day, you'll know how to mock up a gallery space to scale, set up lighting and audio, and pull real-world objects into your scene using your phone.
 
-## Pre-Workshop Setup
+## Before you arrive
 
-Please ensure you have the following installed before arriving:
+You'll need these installed and ready to go:
 
-1.  **Unity Hub & Unity 6:** Download and install the [Unity Hub](https://unity.com/download). From within the Hub, install the latest version of **Unity 6 (LTS)**.
-2.  **Polycam:** Install [Polycam](https://polycam.ai/) (available on iOS and Android) for the photogrammetry portion of the workshop. The free version is sufficient.
+1.  **Unity Hub & Unity 6:** Get the [Unity Hub](https://unity.com/download) first, then use it to install the latest **Unity 6 (LTS)**.
+2.  **Polycam:** Grab [Polycam](https://polycam.ai/) (iOS/Android) for the afternoon session. The free version works fine for what we're doing.
 
-## Schedule — Wednesday, April 22
+## The Plan — Wednesday, April 22
 
-The workshop is divided into two focused sessions on the same day:
+We’re splitting the day into two parts:
 
 ### [Session 01: Morning (10:00 – 13:00)](session01/README.md)
-*Unity Interface, Navigation, ProBuilder Modeling, First-Person Navigation, and Spatial Audio.*
+Interface basics, building room layouts with ProBuilder, and setting up first-person navigation.
 
-### [Lunch Break (13:00 – 14:00)](session01/README.md#physical-to-digital-demo-the-lunch-break-assignment)
-*Scanning objects/spaces for the afternoon session.*
+### [Lunch Break (13:00 – 14:00)](session01/README.md#7-demo-photogrammetry-lunch-assignment)
+Go find something to scan. We'll show you how at the end of the morning session.
 
 ### [Session 02: Afternoon (14:00 – 16:00)](session02/README.md)
-*Importing Photogrammetry, Atmosphere & Lighting, and Assisted Studio Time.*
+Importing your scans, dialing in the lights, and studio time to polish your projects.
