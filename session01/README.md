@@ -25,7 +25,12 @@ This session introduces a no-code Unity workflow for artists. We begin with abso
 			- **E:** Rotate
 			- **R:** Scale
 		- ![Basic Controls](../images/unity-basic_controls.png)
-	- **Object Creation:** Creating primitive objects (Cubes, Spheres, Planes) and using the Move/Rotate/Scale tools.
+
+- **The Basics: Creating Game Objects**
+	- **Create a Floor:** Right-click in the Hierarchy > **3D Object** > **Plane**.
+	- **Create Obstacles:** Create a **Cube** and a **Sphere** using the same menu.
+	- **Physics 101:** Select the Sphere, go to the Inspector, click **Add Component**, and search for **Rigidbody**.
+	- **Test it:** Press the **Play** button at the top of the editor. The sphere should now drop and roll on the plane.
 
 - **Setup & Verification**
 	- Ensure Unity 6 or the current version is installed.
