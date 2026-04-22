@@ -96,13 +96,13 @@ To experience your gallery as a visitor, we'll add a first-person controller.
 3.  **Setup:** In your Project window, navigate to `Mini First Person Controller` and drag the **First Person Controller.prefab** into your scene. 
 4.  **Finalize:** **Delete the default Main Camera** in your Hierarchy, as the controller has its own camera.
 
+![Mini First Person Prefab](../images/unity-mini-first.png)
+
 Hit **Play**! You can now walk through your gallery using **WASD** and look around with your **Mouse**. If you need to stop or use your cursor, just hit **Escape** to get control of your mouse back.
 
 Your scene might look something like this:
 
 ![Complete Scene](../images/unity-complete_scene.png)
-
-![Mini First Person Prefab](../images/unity-mini-first.png)
 
 ### Adding Sound
 To bring your space to life, drag a sound file (like `running_water.wav`) into your Hierarchy. Select it and set the **Spatial Blend** to **3D** in the Inspector. Now, the sound will grow louder as your first-person character walks toward it.
