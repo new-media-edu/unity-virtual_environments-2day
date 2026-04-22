@@ -81,8 +81,7 @@ Before building, look at the top of the Scene view:
 ### Creative Experimentation
 Try selecting a face and using the **Scale tool (R)** while holding **Shift**. This "insets" the face, creating a new surface inside the original one—perfect for windows or architectural details.
 
-![ProBuilder Inset Step 1](../images/unity-probuilder-inset1.png)
-![ProBuilder Inset Step 2](../images/unity-probuilder-inset2.png)
+<img src="../images/unity-probuilder-inset1.png" width="48%" /> <img src="../images/unity-probuilder-inset2.png" width="48%" />
 
 ---
 
