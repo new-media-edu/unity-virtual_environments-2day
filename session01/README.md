@@ -113,6 +113,8 @@ To bring your space to life, you'll need an **Audio Source**.
 2.  In the Inspector, drag a sound file (like `running_water.wav`) into the **AudioClip** slot.
 3.  Set the **Spatial Blend** to **3D**. Now, the sound will grow louder as your character walks toward it.
 
+<br clear="all" />
+
 ---
 
 ## 7. Adding Images & Textures
