@@ -27,7 +27,7 @@ The final hour is yours. We'll be around to help you with:
 ---
 
 ## Afternoon Checklist
-- [ ] Your scan is imported and visible in the scene.
-- [ ] You've added at least one custom light source.
-- [ ] Your space has a clear mood or atmosphere.
-- [ ] You've saved your scene!
+- Your scan is imported and visible in the scene.
+- You've added at least one custom light source.
+- Your space has a clear mood or atmosphere.
+- You've saved your scene!

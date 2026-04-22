@@ -49,8 +49,8 @@ Before we break, we’ll show you how to scan a physical object using **Polycam*
 ---
 
 ## Morning Checklist
-- [ ] Unity 6 is open and running.
-- [ ] ProBuilder is installed.
-- [ ] You can move, rotate, and scale objects.
-- [ ] You have a basic room or floor started.
-- [ ] You've got Polycam on your phone.
+- Unity 6 is open and running.
+- ProBuilder is installed.
+- You can move, rotate, and scale objects.
+- You have a basic room or floor started.
+- You've got Polycam on your phone.
