@@ -127,6 +127,9 @@ Textures are tiled by default. If your image looks too small or repetitive:
 2.  Find the **Material** in the Inspector.
 3.  Adjust the **Tiling** values (X and Y) to scale the pattern.
 
+**Bonus: Realism with Normal Maps**
+To make your textures react to light and look 3D, look into **Normal Maps**. You can generate a normal map from any image using [NormalMap-Online](https://cpetry.github.io/NormalMap-Online/) and plug it into the **Normal Map** slot of your material in Unity.
+
 For high-quality, seamless patterns (like wood, brick, or concrete), check out [Architextures](https://architextures.org/textures).
 
 ---
