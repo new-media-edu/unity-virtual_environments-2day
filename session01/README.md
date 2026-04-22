@@ -89,6 +89,8 @@ Try selecting a face and using the **Scale tool (R)** while holding **Shift**. T
 
 To experience your gallery as a visitor, we'll add a first-person controller.
 
+<img src="../images/unity-asset_store1.png" width="48%" align="right" style="margin-left: 20px;" />
+
 1.  **Install:** Search for the [Mini First Person Controller](https://assetstore.unity.com/packages/tools/input-management/mini-first-person-controller-174710) in the Asset Store/Package Manager.
 2.  **Setup:** Drag the prefab into your scene and **delete the default Main Camera**.
 3.  **Sound:** Drag a sound file into your scene and set its **Spatial Blend** to 3D in the Inspector. It will now grow louder as you approach it.
