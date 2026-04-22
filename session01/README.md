@@ -105,11 +105,33 @@ Your scene might look something like this:
 ![Complete Scene](../images/unity-complete_scene.png)
 
 ### Adding Sound
-To bring your space to life, drag a sound file (like `running_water.wav`) into your Hierarchy. Select it and set the **Spatial Blend** to **3D** in the Inspector. Now, the sound will grow louder as your first-person character walks toward it.
+To bring your space to life, you'll need an **Audio Source**. 
+1.  Right-click in the **Hierarchy** and select **Audio > Audio Source**.
+2.  In the Inspector, drag a sound file (like `running_water.wav`) into the **AudioClip** slot.
+3.  Set the **Spatial Blend** to **3D**. Now, the sound will grow louder as your character walks toward it.
+
+![Audio Source](../images/unity-audio_source.png)
 
 ---
 
-## 7. Lunch Assignment: Photogrammetry
+## 7. Adding Images & Textures
+
+Personalizing your gallery is as simple as dragging and dropping.
+
+### Images on Walls
+You can drag any image file from your **Project** window directly onto a geometric surface in the **Scene** view. Unity will automatically create a material for you.
+
+### Tiling & Textures
+Textures are tiled by default. If your image looks too small or repetitive:
+1.  Select the object.
+2.  Find the **Material** in the Inspector.
+3.  Adjust the **Tiling** values (X and Y) to scale the pattern.
+
+For high-quality, seamless patterns (like wood, brick, or concrete), check out [Architextures](https://architextures.org/textures).
+
+---
+
+## 8. Lunch Assignment: Photogrammetry
 
 Before the break, we’ll demonstrate how to scan objects using **Polycam**. Your goal is to find one object or a corner of a room during lunch, scan it, and bring it into Unity this afternoon.
 
