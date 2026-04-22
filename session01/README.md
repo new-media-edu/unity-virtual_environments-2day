@@ -6,6 +6,9 @@ In the morning, we're covering the core Unity interface and building a foundatio
 
 ## What we're doing
 
+### 0. Project Setup
+When you first open the Unity Hub, click **New Project**. Select the **Universal 3D** template. This ensures we are using the **Universal Render Pipeline (URP)**, which provides better performance and visual tools for our virtual environment.
+
 ### 1. The Editor Layout & Navigation
 Unity has a lot of buttons, but you only need five main windows to start. We'll walk through the **Hierarchy**, **Project**, **Scene**, **Game**, and **Inspector** views.
 - ![Unity Views](../images/unity-views.png)
@@ -18,10 +21,22 @@ Unity has a lot of buttons, but you only need five main windows to start. We'll 
 ### 2. Making your first objects
 Before we get technical, let's just make things move.
 - **Floor & Walls:** Right-click the Hierarchy > **3D Object** > **Plane**.
-- **Physics:** Add a Cube and a Sphere. Select the sphere, click **Add Component** in the inspector, and find the **Rigidbody**. 
+- **Adding a Cube:** Right-click the Hierarchy > **3D Object** > **Cube**. 
+  - Notice the **X, Y, and Z** coordinates in the **Inspector** tab. 
+  - To bring it to the exact middle of the scene, click the three vertical dots to the right of **Transform** and select **Reset**. This centers it at (0, 0, 0) in the 3D world.
+- **Aligning the Camera:** Press the **Play** button at the top. Notice how the camera probably isn't in a great spot? 
+  - Stop Play mode. In the **Scene view**, fly to a position where you have a good view of your objects. 
+  - Select the **Main Camera** in the Hierarchy and press **Shift + Cmd + F** (Mac) or **Shift + Ctrl + F** (Windows). You can also use **GameObject > Align with View**. This makes the camera see exactly what you see in the editor.
+- **Physics:** Add a Sphere. Select the sphere, click **Add Component** in the inspector, and find the **Rigidbody**. 
 - Hit **Play** and watch it fall.
 
-### 3. Setup: ProBuilder
+### 3. Atmosphere: Global Volume
+With URP, your scene automatically includes a **Global Volume** object. Think of this as the "atmosphere" or a set of "filters" for your camera.
+- Select the **Global Volume** in the Hierarchy.
+- Look at the **Volume** component in the Inspector. 
+- Expand the **Vignette** effect (or add it if it's missing) and try adjusting the **Intensity**. Notice how it darkens the edges of your view, giving it a more cinematic feel.
+
+### 4. Setup: ProBuilder
 We'll install **ProBuilder** together. This is a tool that lets you build architecture (walls, stairs, pedestals) directly inside Unity without needing an external 3D app.
 - Open `Window` > `Package Manager`.
 - Switch to the `Unity Registry` and search for **ProBuilder**.
