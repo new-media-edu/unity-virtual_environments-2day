@@ -98,6 +98,10 @@ To experience your gallery as a visitor, we'll add a first-person controller.
 
 Hit **Play**! You can now walk through your gallery using **WASD** and look around with your **Mouse**. If you need to stop or use your cursor, just hit **Escape** to get control of your mouse back.
 
+Your scene might look something like this:
+
+![Complete Scene](../images/unity-complete_scene.png)
+
 ![Mini First Person Prefab](../images/unity-mini-first.png)
 
 ### Adding Sound
