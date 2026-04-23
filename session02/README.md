@@ -15,6 +15,8 @@ We'll take the models you captured over lunch and pull them into Unity.
 #### Importing GLB files
 [Follow these instructions to install the GLTFast package](https://github.com/atteneder/glTFast/blob/openupm/Documentation~/installation.md)
 
+or convert to FBX [with this tool](https://convert3d.org/gltf-to-fbx)
+
 ### 2. Lighting & Atmosphere
 Lighting is the difference between a "gray box" and a gallery.
 - **Skyboxes:** Change the overall background and ambient light.
