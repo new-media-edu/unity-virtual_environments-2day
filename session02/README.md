@@ -12,6 +12,9 @@ We'll take the models you captured over lunch and pull them into Unity.
 - Drop them into your project and fix any weird scaling or orientation.
 - Apply shaders to make the textures look clean.
 
+#### Importing GLB files
+[Follow these instructions to install the GLTFast package](https://github.com/atteneder/glTFast/blob/openupm/Documentation~/installation.md)
+
 ### 2. Lighting & Atmosphere
 Lighting is the difference between a "gray box" and a gallery.
 - **Skyboxes:** Change the overall background and ambient light.
