@@ -140,3 +140,5 @@ For high-quality, seamless patterns (like wood, brick, or concrete), check out [
 ## 8. Lunch Assignment: Photogrammetry
 
 Before the break, we’ll demonstrate how to scan objects using **Polycam**. Your goal is to find one object or a corner of a room during lunch, scan it, and bring it into Unity this afternoon.
+
+[Click here for some short video tutorials on how to scan objects](https://www.youtube.com/@polycam3d)
